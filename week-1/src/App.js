@@ -12,7 +12,7 @@ class App extends React.Component {
     super(props);
     // App 컴포넌트의 state를 정의해줍니다.
     this.state = {
-      list: ['Goethe Zertifikat C1 취득하기', '마라톤 4시간의 벽을 깨기', '요리를 배워서 가족에게 3끼 대접하기'],
+      list: ['Goethe Zertifikat C1 취득하기', '요리 배우기', '마라톤 4시간안에 완주하기'],
     };
   }
 
