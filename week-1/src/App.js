@@ -4,11 +4,12 @@ import './App.css';
 // BucketList 컴포넌트를 import 해옵니다.
 // import [컴포넌트 명] from [컴포넌트가 있는 파일경로];
 import BucketList from './BucketList';
+import "./scss_ex.scss"
 
 // 클래스형 컴포넌트는 이렇게 생겼습니다!
 // App이라는 리액트 컴포넌트를 만들거야~라는 의미.
 class App extends React.Component {
-
+  //생성자함수
   constructor(props){
     super(props);
     // App 컴포넌트의 state를 정의해줍니다.
@@ -20,8 +21,7 @@ class App extends React.Component {
   // 랜더 함수 안에 리액트 엘리먼트를 넣어줍니다!
   // 함수에서는 return이었는데, 클래스컴포넌트는 조금 더 세세하게 작성되어져 있음.
   render() {
-    console.log(this.state)
-
+      console.log(this.state)
       return (
       <div className="App">
         <h1>내 버킷리스트</h1>
